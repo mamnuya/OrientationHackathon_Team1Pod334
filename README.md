@@ -2,6 +2,11 @@
 
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
  
+ 
+## Running and Contributing Code
+
+
+Create a folder titled "templates" in your directory. Place html files in this folder.
 
 ## Installation
 
