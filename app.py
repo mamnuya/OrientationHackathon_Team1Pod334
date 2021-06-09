@@ -8,7 +8,7 @@ def home():
 
 @app.route("/mamnuya")
 def Rinki():
-        return render_template('Rinki.html')
+        return render_template('Rinki.html') 
 
 @app.route("/EXAMPLE")
 def Nandhini():
