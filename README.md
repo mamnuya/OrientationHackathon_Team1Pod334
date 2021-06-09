@@ -39,11 +39,13 @@ $ flask run
 
 ## Implementation Troubleshooting for Macs in Terminal:
 ENTER the following into the terminal, line by line
-alias python=python3 
-python -m venv python3-virtualenv 
-source python3-virtualenv/bin/activate 
-curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py 
-pip install Flask 
-export FLASK_ENV=development 
-flask run 
+```bash
+$ alias python=python3 
+$ python -m venv python3-virtualenv 
+$ source python3-virtualenv/bin/activate 
+$ curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python get-pip.py 
+$ pip install Flask 
+$ export FLASK_ENV=development 
+$ flask run 
+```
