@@ -1,6 +1,6 @@
 # Flask-Blog
 
-Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
+Flask site using HTML and Python to introduce 3 members of the Production Engineering Fellowship.
  
  
 ## Running and Contributing Code
@@ -36,8 +36,3 @@ Start flask development server
 $ export FLASK_ENV=development
 $ flask run
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
