@@ -3,7 +3,7 @@
 Site using Flask and Python to display 3 choices of templates for user's to choose from. After choosing a template by preference, user can customize their choice of template for personal portfolio building.
  
  
-## Running and Contributing Code
+## Running and Creating Portfolio Pages
 
 
 Create a folder titled "templates" in your directory. Place html files in this folder.
