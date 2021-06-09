@@ -1,6 +1,6 @@
 # Flask-Blog
 
-Flask site using Flask and Python to introduce 3 members of the Production Engineering Fellowship.
+Site using Flask and Python to display 3 choices of templates for user's to customize for personal portfolio building.
  
  
 ## Running and Contributing Code
@@ -36,3 +36,14 @@ Start flask development server
 $ export FLASK_ENV=development
 $ flask run
 ```
+
+## Implementation Troubleshooting for Macs in Terminal:
+ENTER the following into the terminal, line by line
+alias python=python3 
+python -m venv python3-virtualenv 
+source python3-virtualenv/bin/activate 
+curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py 
+pip install Flask 
+export FLASK_ENV=development 
+flask run 
