@@ -1,6 +1,6 @@
 # Flask-Blog
 
-Flask site using HTML and Python to introduce 3 members of the Production Engineering Fellowship.
+Flask site using Flask and Python to introduce 3 members of the Production Engineering Fellowship.
  
  
 ## Running and Contributing Code
