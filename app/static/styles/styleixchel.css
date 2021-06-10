@@ -1,0 +1,170 @@
+body,h1,h2,h3,h4,p{
+    margin: 0;
+    background-color: #E5E7E9 ;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* First section of the page below the wave */
+header{
+    padding-top: 120px;
+    padding-bottom: 120px; 
+    background-image: url('../img/back.png') ;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+main{
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #E5E7E9 ;
+    padding-top: 30px;
+}
+
+h1{
+    margin-bottom: 40px;
+    margin-left: 470px;
+    color: pink;
+    font-size: 60px;
+    border: 3px solid pink;
+    border-style: double;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
+h2{
+    margin-bottom: 40px;
+    font-size: 45px;
+    margin-left: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    background: pink;
+    
+}
+
+
+h3{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 35px;
+    background-color: transparent;
+    padding-left: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background: pink;   
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+h4{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h5{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 500px;
+    line-height: 160%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 500px;
+    background-color: transparent;
+ 
+}
+
+footer{
+    background-color: pink;
+}
+
+/* Classes from sections */
+
+.information-text{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+   
+}
+
+.about-me{
+  justify-content: space-evenly;
+}
+
+.networking{
+    margin-left: 60px;
+}
+
+
+/* Links for nav bar depending on the state of it */
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+        }
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+        }
+a:hover {
+    color: white;
+    background-color: transparent;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+        }
+a:active {
+    color: gray;
+    background-color: transparent;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+        }
+
+/* Format for unordered list on nav bar */
+ul li {
+    background: transparent;
+    margin: 5px;
+    border-right: 1px solid #bbb;
+    }
+li:last-child {
+        border-right: none;
+      }
+
+/* nav bar depending on the scrool position */
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+     }
+
+
+            
