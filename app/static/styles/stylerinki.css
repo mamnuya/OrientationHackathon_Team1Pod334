@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif");
+  background-image: linear-gradient(rgba(0, 0, 50, 0), rgba(0, 50, 500, .30)), url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif");
   background-repeat: repeat-x;
   background-size: 1600px 520px;
   background-position: 40px 30px;
