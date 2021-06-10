@@ -1,7 +1,12 @@
 # Flask-Blog
 
-Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
+Site using Flask and Python to display 3 choices of templates for user's to choose from. After choosing a template by preference, user can customize their choice of template for personal portfolio building.
  
+ 
+## Running and Creating Portfolio Pages
+
+
+Create a folder titled "templates" in your directory. Place html files in this folder.
 
 ## Installation
 
@@ -32,7 +37,15 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## Implementation Troubleshooting for Macs in Terminal:
+ENTER the following into the terminal, line by line
+```bash
+$ alias python=python3 
+$ python -m venv python3-virtualenv 
+$ source python3-virtualenv/bin/activate 
+$ curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python get-pip.py 
+$ pip install Flask 
+$ export FLASK_ENV=development 
+$ flask run 
+```
