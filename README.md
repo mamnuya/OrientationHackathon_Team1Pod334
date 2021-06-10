@@ -1,12 +1,14 @@
 # Flask-Blog
 
-Site using Flask and Python to display 3 choices of templates for user's to choose from. After choosing a template by preference, user can customize their choice of template for personal portfolio building.
- 
+Site using Flask, Python, CSS, and HTML to display 3 portfolio template options. The home site holds varying customizable portfolio templates for user's to implement, choose, and edit based on preference.
  
 ## Running and Creating Portfolio Pages
 
 
 Create a folder titled "templates" in your directory. Place html files in this folder.
+Create a fold titled "static" in your directory. Place the "img" and "styles" folders in this folder.
+Create a folder titled "img" in your directory. Place .png and .jpeg/.jpg files in this folder.
+Create a folder titled "styles" in your directory. Place .css files in this folder.
 
 ## Installation
 
@@ -38,7 +40,7 @@ $ flask run
 ```
 
 ## Implementation Troubleshooting for Macs in Terminal:
-ENTER the following into the terminal, line by line
+ENTER the following into the terminal, line by line, after downloading python3 and Flask. 
 ```bash
 $ alias python=python3 
 $ python -m venv python3-virtualenv 
