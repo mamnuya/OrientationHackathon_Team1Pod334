@@ -3,7 +3,7 @@
 Site using Flask, Python, CSS, and HTML to display 3 portfolio template options. The home site holds varying customizable portfolio templates for user's to implement, choose, and edit based on preference.
  
 ## Running and Creating Portfolio Pages
-
+Most files place in the "app" folder on GitHub repository.
 
 Create a folder titled "templates" in your directory. Place html files in this folder.
 Create a fold titled "static" in your directory. Place the "img" and "styles" folders in this folder.
