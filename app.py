@@ -9,19 +9,19 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-#links ending in /mamnuya will redirect to the file within the ()
 @app.route("/mamnuya")
 def Rinki():
         return render_template('Rinki.html')
 
-@app.route("/EXAMPLE")
+@app.route("/nandhini")
 def Nandhini():
-        return render_template('EXAMPLE.html')
+        return render_template('Webp.html')
 
-@app.route("/EXAMPLE")
+@app.route("/ixchel")
 def Marcela():
-        return render_template('EXAMPLE.html')
+        return render_template('ixchel.html')
 
 
 if __name__ == '__main__':
     app.run(debug=True)
+
