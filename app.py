@@ -9,6 +9,10 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
+@app.route("/health")
+def health():
+    return 200
+
 @app.route("/mamnuya")
 def Rinki():
         return render_template('Rinki.html')
@@ -24,4 +28,3 @@ def Marcela():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
