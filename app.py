@@ -11,7 +11,7 @@ def home():
 
 @app.route("/health")
 def health():
-    return "200"
+    return 200
 
 @app.route("/mamnuya")
 def Rinki():
