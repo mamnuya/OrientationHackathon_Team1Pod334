@@ -11,7 +11,7 @@ app = Flask(__name__)
 #This allows multiple pages to interact through links.
 @app.route("/")
 def home():
-    return render_template('home.html')
+    return render_template('app/home.html')
 
 @app.route('/health', methods=['GET'])
 def health():
@@ -19,15 +19,15 @@ def health():
 
 @app.route("/mamnuya")
 def Rinki():
-        return render_template('Rinki.html')
+        return render_template('app/Rinki.html')
 
 @app.route("/nandhini")
 def Nandhini():
-        return render_template('Webp.html')
+        return render_template('app/Webp.html')
 
 @app.route("/ixchel")
 def Marcela():
-        return render_template('ixchel.html')
+        return render_template('app/ixchel.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
