@@ -6,15 +6,15 @@ load_dotenv()
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
+#@app.route('/')
+#def index():
+#    return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
 
 @app.route('/ixchel')
 def ixchel():
     return render_template('ixchel.html')
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('home.html')
 
