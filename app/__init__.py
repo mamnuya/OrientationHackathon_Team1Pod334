@@ -74,7 +74,7 @@ def login():
             return error, 418
 
     ## Return a login page
-    return render_template('register.html')
+    return render_template('login.html')
 
 @app.route("/mamnuya")
 def Rinki():
