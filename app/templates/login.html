@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Register </title>
+        <title> Login </title>
 
     </head>
     <body style="background-color:#e3e3e3;"></br></br></br></br></br>
         <div align="center">
           <div align="center" class="border">
              <div class="header">
-                <h1 style="color:#0529f7">Register</h1>
+                <h1 style="color:#0529f7">Login</h1>
              </div></br></br></br>
             <h2>
-                <form action="/register" method="POST">
+                <form action="/login" method="POST">
                   <div class="msg">{{ msg }}</div>
                     <input id="username" name="username" type="text" placeholder="Enter Your Username:" class="textbox"/></br></br>
                     <input id="password" name="password" type="password" placeholder="Enter Your Password:" class="textbox"/></br></br>
-                    <input type="submit" class="btn" value="Register"></br>
+                    <input type="submit" class="btn" value="Login"></br>
                 </form>
             </h2>
-            <p class="bottom">Already Registered?  <a class="bottom" href="/login"> Login Here</a></p>
+            <p class="bottom">Haven't Registered?  <a class="bottom" href="/register"> Register Here</a></p>
           </div>
         </div>
     </body>
