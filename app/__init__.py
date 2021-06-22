@@ -3,6 +3,7 @@ from flask import Flask, render_template, send_from_directory
 from dotenv import load_dotenv
 from . import db
 from werkzeug.security import generate_password_hash
+from werkzeug.security import check_password_hash
 from app.db import get_db
 from flask import request
 
