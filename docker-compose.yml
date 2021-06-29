@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    restart: always
+    env_file:
+      - example.env
+    volumes:
+      - ./flask.sqlite:/myportfolio/flask.sqlite
