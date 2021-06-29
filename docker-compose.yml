@@ -8,4 +8,12 @@ services:
     env_file:
       - example.env
     volumes:
-      - ./flask.sqlite:/myportfolio/flask.sqlite
+      - .:/myportfolio
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    restart: always
+    env_file:
+      - example.env
