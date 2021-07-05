@@ -31,4 +31,4 @@ jobs:
         uses: docker/bake-action@master
         with: 
           push: true
-          tags: latest
+          tags: 0.0.1
