@@ -8,26 +8,26 @@ on:
     branches:
       - master
 
-jobs:
-  bake:
+jobs: 
+  bake: 
     runs-on: ubuntu-latest
-    steps:
-      -
-        name: Check out Git repository
+    steps: 
+      - 
+        name: "Check out Git repository"
         uses: actions/checkout@v2
-      -
-        name: Set up Python
+      - 
+        name: "Set up Python"
         uses: actions/setup-python@v1
-        with:
+        with: 
           python-version: 3.8
       - 
-        name: Install Python dependencies
-        run: pip install black flake8
-      _ 
-        name: Set up Docker Buildx
+        name: "Install Python dependencies"
+        run: "pip install black flake8"
+      - 
+        name: "Set up Docker Buildx"
         uses: docker/setup-buildx-action@v1
-      -
-        name: Build and push
+      - 
+        name: "Build and push"
         uses: docker/bake-action@master
-        with:
+        with: 
           push: true
