@@ -32,4 +32,4 @@ jobs:
         run: ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && git fetch && git reset --hard origin/master && docker-compose build -d --build'
       
       - name: Print container status
-        run: echo "Container status: " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
+        run: echo "Container status " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
