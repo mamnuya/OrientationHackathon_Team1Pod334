@@ -32,11 +32,7 @@ jobs:
         run: ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && git fetch && git reset --hard origin/master && docker-compose build -d --build'
       
       - name: Print container status
-<<<<<<< HEAD
         run: echo "Container status: " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
 
       - name: Notify deployment success in Discord
         run: curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful"
-=======
-        run: echo "Container status " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
->>>>>>> 857c489360f7156a2e3e2c701eb32798ef7931e7
