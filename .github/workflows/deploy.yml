@@ -33,3 +33,6 @@ jobs:
       
       - name: Print container status
         run: echo "Container status: " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
+
+      - name: Notify deployment success in Discord
+        run: curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=🚀 Deployment Successful"
