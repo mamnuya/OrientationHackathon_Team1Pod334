@@ -31,6 +31,10 @@ jobs:
       - name: Deploy site
         run: ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && git fetch && git reset --hard origin/master && docker-compose up -d --build'
       
+      - name: Test Deployment
+        uses: actions/checkout@v2
+        run: bash prod-test.sh
+
       - name: Print container status
         run: echo "Container status " && ssh my-vm 'cd ${{ secrets.PROJECT_ROOT }} && docker-compose ps'
 
